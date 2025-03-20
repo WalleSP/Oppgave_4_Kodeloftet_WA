@@ -35,6 +35,7 @@ li {
   border-radius: 10px;
 }
 
-.threeButtons {
+button {
   cursor: pointer;
+  border-radius: 8px;
 }
