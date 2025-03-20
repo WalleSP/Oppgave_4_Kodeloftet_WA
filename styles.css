@@ -1,0 +1,40 @@
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#displayOutput {
+  width: 300px;
+  margin-top: 10px;
+  min-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#input {
+  font-size: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+  list-style: none;
+}
+
+.list-button {
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.checkbox-button:hover {
+  background-color: #cc0000;
+}
