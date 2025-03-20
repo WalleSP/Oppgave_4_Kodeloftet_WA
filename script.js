@@ -1,5 +1,18 @@
 console.log('Hello!');
 
+/*
+
+1. Make HTML content. Input, buttons etc.
+2. Use querySelector to transfer buttons and display to js.
+3. Add empty list: toDoList. 
+4. Make a function that displays list when function is called.
+5. Add button in the function that removes items.
+6. Add eventlistener for each of the threeButtons.
+7. Push the input to toDoList and display function displayList.
+8. Use classlist.add for css styling.
+
+*/
+
 const pushButton = document.querySelector('#pushButton');
 const displayOutput = document.querySelector('#displayOutput');
 const pop = document.querySelector('#pop');
