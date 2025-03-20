@@ -35,6 +35,6 @@ li {
   border-radius: 10px;
 }
 
-.checkbox-button:hover {
-  background-color: #cc0000;
+.threeButtons {
+  cursor: pointer;
 }
